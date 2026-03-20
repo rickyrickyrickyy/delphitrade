@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>All Delphi Markets — portfolio demo</title>
+    <meta name="description" content="Browse markets — static demo." />
+    <link rel="icon" href="assets/images/trading-competition/delphi.png" />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/images/trading-competition/delphi.png" alt="" width="36" height="36" />
+          Delphi
+        </a>
+        <nav aria-label="Primary">
+          <ul class="nav-main">
+            <li><button type="button" class="btn btn-ghost" data-theme-label onclick="delphiTheme.cycle()">Theme</button></li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="events.html" aria-current="page">Markets</a></li>
+            <li><a href="earn.html">Earn</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <a class="btn btn-primary" href="portfolio.html">Login</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="page-hero">
+        <div class="wrap">
+          <h1>Where questions become markets</h1>
+          <p>Take a stab at the future, share your hot takes, and get rewarded for being right — demo market cards below.</p>
+        </div>
+      </div>
+
+      <section>
+        <div class="wrap">
+          <div class="promo-banner">
+            <div>
+              <strong>Ready to boost your rewards?</strong>
+              <span style="color: var(--text-muted); margin-left: 0.35rem">$1 = 1 Point · maker bonuses</span>
+            </div>
+            <a href="earn.html">
+              <img src="assets/images/earn/extra-points.svg" alt="" width="28" height="28" />
+              Open Earn
+            </a>
+          </div>
+
+          <div class="filters-row">
+            <button type="button" class="chip active">All</button>
+            <button type="button" class="chip">New</button>
+            <button type="button" class="chip">Ending soon</button>
+            <span style="margin-left: auto; font-size: 0.85rem; color: var(--text-muted)">Show: Active</span>
+          </div>
+
+          <div class="market-grid">
+            <article class="market-card">
+              <h3>Fed cuts rates before July 2026?</h3>
+              <div class="market-meta">Politics · 2.4k traders · Ends in 18d</div>
+              <div class="market-prices">
+                <div class="price-tag yes">Yes 62¢</div>
+                <div class="price-tag no">No 41¢</div>
+              </div>
+            </article>
+            <article class="market-card">
+              <h3>BTC above $100k by year end?</h3>
+              <div class="market-meta">Crypto · 5.1k traders · Ends in 284d</div>
+              <div class="market-prices">
+                <div class="price-tag yes">Yes 71¢</div>
+                <div class="price-tag no">No 32¢</div>
+              </div>
+            </article>
+            <article class="market-card">
+              <h3>Major league: championship favorite wins?</h3>
+              <div class="market-meta">Sports · 890 traders · Ends in 4d</div>
+              <div class="market-prices">
+                <div class="price-tag yes">Yes 54¢</div>
+                <div class="price-tag no">No 49¢</div>
+              </div>
+            </article>
+            <article class="market-card">
+              <h3>Gold spot new ATH before Q4?</h3>
+              <div class="market-meta">Macro · 1.2k traders · Ends in 92d</div>
+              <div class="market-prices">
+                <div class="price-tag yes">Yes 48¢</div>
+                <div class="price-tag no">No 55¢</div>
+              </div>
+            </article>
+            <article class="market-card">
+              <h3>Election turnout above 65%?</h3>
+              <div class="market-meta">Politics · 3.6k traders · Resolved soon</div>
+              <div class="market-prices">
+                <div class="price-tag yes">Yes 38¢</div>
+                <div class="price-tag no">No 65¢</div>
+              </div>
+            </article>
+            <article class="market-card">
+              <h3>Base L2 daily txs record in 2026?</h3>
+              <div class="market-meta">Tech · 640 traders · Ends in 310d</div>
+              <div class="market-prices">
+                <div class="price-tag yes">Yes 44¢</div>
+                <div class="price-tag no">No 58¢</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <div class="footer-brand">Delphi © 2025</div>
+          <p class="section-desc" style="margin-top: 0.75rem; font-size: 0.85rem">Static portfolio demo.</p>
+        </div>
+        <div>
+          <div class="footer-brand">Product</div>
+          <ul class="footer-links">
+            <li><a href="events.html">Markets</a></li>
+            <li><a href="earn.html">Earn</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-brand">Follow</div>
+          <div class="social-row" style="margin-top: 0.75rem">
+            <a href="https://x.com/delphitrade" rel="noopener noreferrer" target="_blank">X</a>
+            <a href="https://docs.delphi.trade" rel="noopener noreferrer" target="_blank">Docs</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/theme.js"></script>
+  </body>
+</html>

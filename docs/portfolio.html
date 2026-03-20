@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Portfolio — Delphi demo</title>
+    <meta name="description" content="Portfolio — static demo login gate." />
+    <link rel="icon" href="assets/images/trading-competition/delphi.png" />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/images/trading-competition/delphi.png" alt="" width="36" height="36" />
+          Delphi
+        </a>
+        <nav aria-label="Primary">
+          <ul class="nav-main">
+            <li><button type="button" class="btn btn-ghost" data-theme-label onclick="delphiTheme.cycle()">Theme</button></li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="events.html">Markets</a></li>
+            <li><a href="earn.html">Earn</a></li>
+            <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <a class="btn btn-primary" href="portfolio.html">Login</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section style="padding-top: clamp(3rem, 12vw, 6rem)">
+        <div class="wrap" style="max-width: 520px">
+          <div class="empty-state">
+            <h2>You are not logged in</h2>
+            <p>Log in to see your portfolio, open orders, and PnL — this static demo stops here by design.</p>
+            <a class="btn btn-primary" href="https://delphi.trade/portfolio/" rel="noopener noreferrer" target="_blank">Open live app</a>
+            <p style="margin-top: 1.25rem; font-size: 0.85rem; color: var(--text-muted)">
+              Or return to <a href="events.html">markets</a> in the demo.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <div class="footer-brand">Delphi © 2025</div>
+          <p class="section-desc" style="margin-top: 0.75rem; font-size: 0.85rem">Static portfolio demo.</p>
+        </div>
+        <div>
+          <div class="footer-brand">Product</div>
+          <ul class="footer-links">
+            <li><a href="events.html">Markets</a></li>
+            <li><a href="earn.html">Earn</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-brand">Follow</div>
+          <div class="social-row" style="margin-top: 0.75rem">
+            <a href="https://x.com/delphitrade" rel="noopener noreferrer" target="_blank">X</a>
+            <a href="https://docs.delphi.trade" rel="noopener noreferrer" target="_blank">Docs</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/theme.js"></script>
+  </body>
+</html>
